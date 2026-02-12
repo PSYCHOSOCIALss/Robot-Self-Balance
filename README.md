@@ -1,15 +1,7 @@
-A self-balancing robot is a two-wheeled robot that can stand upright without falling.
+> เซ็นเซอร์ MPU6050 สามารถอ่านค่ามุมเอียง (Pitch/Roll) ได้ถูกต้อง และแสดงผลผ่าน Serial Monitor
 
-It can:
+> มอเตอร์ทำงานสัมพันธ์กับค่ามุมเอียงของหุ่นยนต์
 
-✅ Stay balanced automatically
+> ระบบควบคุมแบบ PID (Kp, Ki, Kd) สามารถปรับค่าเพื่อให้หุ่นยนต์ทรงตัวได้อย่างเสถียร
 
-✅ Move forward and backward
-
-✅ Turn left and right
-
-✅ Adjust on small slopes
-
-✅ Be controlled by Bluetooth or remote (if added)
-
-It uses sensors (like a gyroscope) and motors to constantly correct its position.
+> หุ่นยนต์สามารถตั้งตรงและรักษาสมดุลได้โดยไม่ต้องมีสิ่งพยุง
